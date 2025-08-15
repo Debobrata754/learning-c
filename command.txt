@@ -1,2 +1,2 @@
-1.For compiling a code write:gcc "file name"
-2.For run a code write:./a.out
+1.For compiling a code write:gcc "file name" -o "output file name"
+2.For run a code write:./"output file name"
