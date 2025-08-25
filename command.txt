@@ -1,2 +1,10 @@
-1.For compiling a code write:gcc "file name" -o "output file name"
-2.For run a code write:./"output file name"
+For compiling a code write:gcc "file name" -o "output file name"
+For run a code write:./"output file name"
+To create a file through terminal:EX:touch file name.txt
+To open a file:EX:code file name.txt
+To rename a file through terminal:EX:mv old-file name.txt new-file name.txt
+To delete a file through terminal:EX:rm file name.txt
+
+
+
+Explorer shortcut ctrl+shift+e
