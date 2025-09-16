@@ -1,0 +1,15 @@
+For scaning data from file we use:
+   int ch or char ch;
+   fscanf(pointer, "%d/c/s", &ch);
+   or simply use:
+     fgetc(pointer);
+For writing data in a file we use:
+   int ch or char ch;
+   fprintf(pointer, "%d/c/s", &ch);
+   or simply use:
+     fputc('write char what you want to write', pointer);
+"r" = open to read.
+"rb" = open to read in binary.
+"w" = open to write.
+"wb" = open to write in binary.
+"a" = open to apped.

@@ -1,0 +1,7 @@
+ git init
+ git add hello-world.c 
+ git commit -m "feat: my new C file"
+ git remote add origin https://github.com/Debobrata754/learning-c.git
+ git push origin -u master
+
+ git log

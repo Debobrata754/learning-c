@@ -1,0 +1,32 @@
+must use <stdlib.h> standard library
+
+malloc():[Memory allocation]
+    takes number of bytes to be allocated & 
+    returns a pointer of type void
+
+  ptr = (int*)malloc(5 * sizeof(int));//It reserve 5*4 = 20 bytes.  
+                                      //using (int*) it creates int type pointer
+                                       without this it creates void type pointer
+
+calloc():[Continuous allocation]
+***WHEN YOU WANT TO TAKE MEMORY DYANMICALLY AND STORE NULL VLUE THEN USE CALLOC.***
+
+    initializes with 0 means if one make pointer 
+    like 5 * int then in every block it stores 0 first
+
+  ptr = (int*)calloc(5,sizeof(int));//5 = no of locations.
+                                    //sizeof() = per location size.
+                                    //using (int*) it creates int type pointer
+                                       without this it creates void type pointer
+
+free()
+    We use it to free memory that is 
+    allocated using malloc & calloc.
+
+  free(ptr); 
+
+realloc():[Reallocation]  
+    reallocate (increase or decrease) memory 
+    using the same pointer & size.
+
+  ptr = realloc(ptr,newSize);  
