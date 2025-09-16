@@ -1,3 +1,4 @@
+//Q12.Print the multiplication table of a number.
 #include<stdio.h>
 int main(){
     int n;

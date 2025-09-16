@@ -1,3 +1,4 @@
+//Q2.WAP to take two integers as input and print their sum.
 #include<stdio.h>
 int main(){
     int a,b,sum;
